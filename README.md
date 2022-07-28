@@ -14,16 +14,7 @@ This module provides the method `discord.abc.Messageable.send_embed` which takes
 
 ## Example
 
-<table>
-<thead>
-<tr>
-<td>discord.py</td>
-<td>helper</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>
+### Without helper
 
 ```python
 embed = discord.Embed(
@@ -47,8 +38,7 @@ embed.set_footer(text="This is the footer text")
 await ctx.send("Message content", embed=embed)
 ```
 
-</td>
-<td>
+### With helper
 
 ```python
 await ctx.send_embed({
@@ -68,8 +58,3 @@ await ctx.send_embed({
     "footer": {"text": "This is the footer text"}
 })
 ```
-
-</td>
-</tr>
-</tbody>
-</table>
