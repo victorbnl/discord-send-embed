@@ -10,7 +10,7 @@ pip install git+https://github.com/victorbnl/discord-send-embed
 
 ## Usage
 
-This module provides the method `discord.abc.Messageable.send_embed` which takes as argument a dictionnary to be converted as embed, and all the arguments of [`discord.abc.Messageable.send`](https://discordpy.readthedocs.io/en/stable/api.html#discord.abc.Messageable.send)
+This module provides the method `discord.abc.Messageable.send_embed` which takes as argument a dictionnary to be converted as embed, and all the arguments of [`discord.abc.Messageable.send`](https://discordpy.readthedocs.io/en/stable/api.html#discord.abc.Messageable.send). As part of the Messageable ABC, the function will be available on all the objects with a `send` method (Context, TextChannel...)
 
 ## Example
 
