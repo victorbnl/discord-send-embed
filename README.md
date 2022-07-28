@@ -5,7 +5,7 @@ Helper for sending embeds with discord.py or its forks
 ## Installation
 
 ```
-pip install git+https://github.com/victorbnl/discord-send-embed
+pip install discord-send-embed
 ```
 
 ## Usage
