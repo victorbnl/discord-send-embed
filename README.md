@@ -56,5 +56,5 @@ await ctx.send_embed({
         }
     ],
     "footer": {"text": "This is the footer text"}
-})
+}, content="Message content")
 ```
